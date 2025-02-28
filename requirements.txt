@@ -1,0 +1,6 @@
+# No external dependencies required for the basic tool
+# Dependencies below are only needed if you want to run the API server
+
+# API Server dependencies
+flask==2.2.3
+flask-cors==3.0.10
