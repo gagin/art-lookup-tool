@@ -216,10 +216,8 @@ if you named the tool \"VancouverArtStatus\" during setup.
     9. Japanese Canadian War Memorial - Status: In place
     ```
 
-General issues with RAG+tools setup in Open-WebUI
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- Seems like it vector-matches full
-questions, and every question, even if it clearly asks to use tools - It
-sometimes returns in the dialog the tool call text instead of calling
-the actual tool - Even when citations are off, the answers still include
-references like \[1\] to non-existing referred documents, and several
-references to the same documents
+## General issues with RAG+tools setup in Open-WebUI
+
+- Seems like it vector-matches full questions, and every question, even if it clearly asks to use tools 
+- It sometimes returns in the dialog the tool call text instead of calling the actual tool 
+- Even when citations are off, the answers still include references like [1] to non-existing referred documents, and several references to the same documents
